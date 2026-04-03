@@ -15,6 +15,7 @@ docker build -t ai-lab-v1 .
 docker run ai-lab-v1
 
 ---
+
 # AI Remote Dev Lab - Day 2
 
 ## 📌 專案進度：FastAPI 服務化
