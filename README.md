@@ -1,3 +1,20 @@
+# AI Remote Dev Lab - Day 2
+
+## 📌 專案進度：FastAPI 服務化
+今天將靜態腳本升級為非同步 Web API，並實作端口映射 (Port Mapping)。
+
+## 🛠️ 新增技術棧
+- **Framework:** FastAPI
+- **Server:** Uvicorn
+- **Tools:** Swagger UI (自動文件)
+
+## 🚀 運行指令
+```bash
+docker build -t ai-lab-v2 .
+docker run -p 8080:8000 ai-lab-v2
+
+------
+
 # AI Remote Dev Lab - Day 1
 
 ## 📌 專案簡介
@@ -13,20 +30,3 @@
 ```bash
 docker build -t ai-lab-v1 .
 docker run ai-lab-v1
-
----
-
-# AI Remote Dev Lab - Day 2
-
-## 📌 專案進度：FastAPI 服務化
-今天將靜態腳本升級為非同步 Web API，並實作端口映射 (Port Mapping)。
-
-## 🛠️ 新增技術棧
-- **Framework:** FastAPI
-- **Server:** Uvicorn
-- **Tools:** Swagger UI (自動文件)
-
-## 🚀 運行指令
-```bash
-docker build -t ai-lab-v2 .
-docker run -p 8080:8000 ai-lab-v2
