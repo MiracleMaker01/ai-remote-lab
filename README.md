@@ -69,3 +69,61 @@ docker run -p 8080:8000 ai-lab-v2
 
 * FastAPI 預設跑在 8000
 * Uvicorn 是 ASGI server
+
+---
+
+# 🚀 AI Remote Dev Lab
+
+## 📅 Day 3 - Data Persistence
+
+### 📌 Overview
+
+Implemented persistent storage using SQLite and Docker Volume.
+Data now survives container restarts.
+
+---
+
+## 🛠 Tech Stack
+
+* FastAPI
+* SQLite
+* Docker Volume
+
+---
+
+## ⚙️ Run
+
+### Build
+
+```bash
+docker build --no-cache -t ai-lab-v3 .
+```
+
+### Run with Volume
+
+```bash
+docker run -p 8080:8000 -v "${PWD}/data:/app/data" ai-lab-v3
+```
+
+---
+
+## 🔗 API Docs
+
+http://localhost:8080/docs
+
+---
+
+## ✅ Features
+
+* Persistent storage
+* RESTful API
+* Containerized deployment
+
+---
+
+## 📈 Progress
+
+* [x] API Service
+* [x] Data Persistence
+* [ ] ORM Integration
+* [ ] Cloud Deployment
