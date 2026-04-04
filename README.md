@@ -1,4 +1,4 @@
-# AI Remote Dev Lab
+# 🚀 AI Remote Dev Lab
 
 ## 📌 專案目標
 
@@ -71,8 +71,6 @@ docker run -p 8080:8000 ai-lab-v2
 * Uvicorn 是 ASGI server
 
 ---
-
-# 🚀 AI Remote Dev Lab
 
 ## 📅 Day 3 - Data Persistence
 
